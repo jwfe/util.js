@@ -1,0 +1,23 @@
+{
+  "name": "airductutil",
+  "version": "1.0.0",
+  "description": "airduct util",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Johnqing/util.js.git"
+  },
+  "keywords": [
+    "airduct",
+    "util"
+  ],
+  "author": "charles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Johnqing/util.js/issues"
+  },
+  "homepage": "https://github.com/Johnqing/util.js#readme"
+}
