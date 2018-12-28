@@ -1,5 +1,6 @@
 /**
  * 是否对象
+ * @module object
  * @param {Object} dirtyObject 对象
  * @returns {Boolean} 是否对象类型
  */
@@ -8,6 +9,7 @@ exports.is = (dirtyObject) => {
 }
 /**
  * 创建对象的浅复制
+ * @module object
  * @param {Object} dirtyObject 对象
  * @returns {Object} 
  */

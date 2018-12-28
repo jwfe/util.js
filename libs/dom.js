@@ -1,5 +1,6 @@
 /**
  * 是否dom
+ * @module dom
  * @param {Date} dirtyDom dom对象
  * @returns {Boolean} 是否dom类型
  */

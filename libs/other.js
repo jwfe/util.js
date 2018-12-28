@@ -1,7 +1,8 @@
 /**
  * query解析为object
+ * @module other
  * @param {String} query 需要解析的query/url
- * @returns {Object} 新数组
+ * @returns {Object} object
  */
 exports.queryToObj = (query) => {
     const queryArr = query.split('?');
@@ -30,6 +31,7 @@ exports.queryToObj = (query) => {
 }
 /**
  * object解析为query
+ * @module other
  * @param {Object} obj query Object 
  * @returns {String} query字符串
  */

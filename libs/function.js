@@ -1,5 +1,6 @@
 /**
  * 是否函数
+ * @module function
  * @param {Function} dirtyFunction 函数对象
  * @returns {Boolean} 是否函数类型
  */

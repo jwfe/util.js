@@ -1,5 +1,6 @@
 /**
  * 是否日期
+ * @module date
  * @param {Date} dirtyDate 日期对象
  * @returns {Boolean} 是否日期类型
  */
@@ -8,6 +9,7 @@ exports.is = (dirtyDate) => {
 }
 /**
  * 日期格式化
+ * @module date
  * @param {Date} dirtyDate 日期对象
  * @param {String} dirtyFormatStr 格式化字符串
  * @returns {String} 格式化后的日期字符串
@@ -39,6 +41,7 @@ exports.format = (dirtyDate, dirtyFormatStr = 'yyyy-MM-dd') => {
 }
 /**
  * 日期字符串转为日期对象
+ * @module date
  * @param {String} dirtyDateString 日期字符串
  * @returns {Date} 格式化后的日期对象
  */
@@ -60,6 +63,7 @@ exports.parse = (dirtyDateString) => {
 
 /**
  * 日期对比毫秒数
+ * @module date
  * @param {String|Date|Number} start 开始日期
  * @param {String|Date|Number} end 结束日期
  * @returns {Number} 对比的毫秒数
@@ -79,6 +83,7 @@ exports.differenceInMilliseconds = (start, end) => {
 
 /**
  * 日期对比天数
+ * @module date
  * @param {String|Date|Number} start 开始日期
  * @param {String|Date|Number} end 结束日期
  * @returns {Number} 对比的天数,具体是不是绝对值，是否取余，业务内自己实现
@@ -87,6 +92,7 @@ exports.differenceInDays = (start, end) => exports.differenceInMilliseconds(star
 
 /**
  * 切换日期
+ * @module date
  * @param {Date|String} dirtyDate 日期
  * @param {Number} days 天数
  * @returns {String} 切换后得到的时间字符串
