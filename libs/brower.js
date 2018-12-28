@@ -1,6 +1,6 @@
 /**
  * 是否浏览器环境
- * @module brower
+ * @module utils/brower
  * @returns {Boolean} 是否浏览器环境
  */
 exports.is = () => {

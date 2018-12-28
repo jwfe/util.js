@@ -1,6 +1,6 @@
 /**
  * query解析为object
- * @module other
+ * @module utils/other
  * @param {String} query 需要解析的query/url
  * @returns {Object} object
  */
@@ -31,7 +31,7 @@ exports.queryToObj = (query) => {
 }
 /**
  * object解析为query
- * @module other
+ * @module utils/other
  * @param {Object} obj query Object 
  * @returns {String} query字符串
  */

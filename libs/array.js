@@ -1,6 +1,6 @@
 /**
  * 是否数组
- * @module array
+ * @module utils/array
  * @param {Array} dirtyArray 数组对象
  * @returns {Boolean} 是否数组类型
  */
@@ -9,7 +9,7 @@ exports.is = (dirtyArray) => {
 }
 /**
  * 按字符对数组进行排序
- * @module array
+ * @module utils/array
  * @param {Array} dirtyArray 需要排序的数组
  * @returns {Array} 新数组
  */
