@@ -1,11 +1,11 @@
 {
   "name": "airductutil",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "airduct util",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "doc": "jsdoc ./libs -d doc -r"
+    "doc": "jsdoc ./libs -d docs -r"
   },
   "repository": {
     "type": "git",
