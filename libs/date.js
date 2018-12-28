@@ -175,13 +175,14 @@ exports.weekOfYear = (dirtyDateString, lang) => {
 
     const month = dirtyDate.getMonth() + 1;
     const week = dirtyDate.getDay();
+    const weekArr = weekObj[lang] || [];
     return {
         year: firstMonth.getFullYear(),
         number,
         month: month,
         season: season[month],
         week,
-        weekName: weekObj[week],
+        weekName: weekArr[week],
         dirtyYear: dirtyDate.getFullYear()
     };
 }
