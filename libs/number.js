@@ -17,7 +17,7 @@ exports.is = (dirtyNumber) => {
  * @param {String} roundtag 舍入参数，默认 "ceil" 向上取,"floor"向下取,"round" 四舍五入
  * @returns {String} 格式化后的字符串
  */
-exports.format = (number, decimals) => {
+exports.format = (number, decimals, point, sep, roundtag) => {
     number = (number + '').replace(/[^0-9+-Ee.]/g, '');
     roundtag = roundtag || "ceil";
     const n = !isFinite(+number) ? 0 : +number;
